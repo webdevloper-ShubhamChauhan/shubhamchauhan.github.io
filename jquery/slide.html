@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide</title>
+    <style>
+        #head,#flip{
+            padding: 5px;
+            text-align: center;
+            background-color: cornflowerblue;
+            border: 2px solid black;
+        }
+        #head{
+            padding: 280px;
+            display: block;
+         background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-tunnel-rapid-background-image-jpg-image_280278.jpg);
+        background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="flip">click hear to this slide</div>
+    <div id="head">hello world</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            // click hear  function takes slide to down
+            /* $("#flip").click(function(){
+                $("#head").slideDown("slow");
+            });*/
+            // click hear to slide or pic is goes up by help of function on click flip
+           /* $("#flip").click(function(){
+                $("#head").slideUp("slow");
+            });*/
+            // toggle means that slide is down and up to clicks
+            $("#flip").click(function(){
+                $("#head").slideToggle("slow");
+            })
+           
+        });
+    </script>
+</body>
+</html>
