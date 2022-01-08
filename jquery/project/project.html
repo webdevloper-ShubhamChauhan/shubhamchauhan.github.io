@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+    <style>
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .wrapper{
+            height: 100vh;
+            width: 100%;
+            display: none;
+        }
+        #button1{
+        
+            width: 20vh;
+            background-color: brown;
+            padding: 0.8%;
+            margin-top: 30px;
+            text-align: center;
+            
+        }
+        #button2{
+            
+            width: 20vh;
+            background-color: brown;
+            padding: 0.8%;
+            margin-top: 42px;
+            text-align: center;
+        }
+        #button3{
+            
+            width: 20vh;
+            background-color: brown;
+            padding: 0.8%;
+            margin-top: 60px;
+            text-align: center;
+        }
+        #button4{
+        
+            width: 20vh;
+            background-color: brown;
+            padding: 0.8%;
+            margin-top: 75px;
+            text-align: center;
+        }
+        .p1{
+            
+            width: 80%;
+            background-color: rgb(134, 20, 20);
+            margin-top: 5px;
+            font-size: 1.2rem;
+            display: none;
+           
+        }
+        .p2{
+            padding: 0.2%;
+            width: 80%;
+            background-color: rgb(134, 20, 20);
+            margin-top: 5px;
+            font-size: 1.2rem;
+            display: none;
+           
+        }
+        .p3{
+            padding: 0.2%;
+            width: 80%;
+            background-color: rgb(134, 20, 20);
+            margin-top: 5px;
+            font-size: 1.2rem;
+            display: none;
+          
+        }
+        .p4{
+            padding: 0.2%;
+            width: 80%;
+            background-color: rgb(134, 20, 20);
+            margin-top: 5px;
+            font-size: 1.2rem;
+            display: none;
+         
+        }  
+        button{
+            padding: 0.3%;
+            background-color: darkgrey;
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button1{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button1:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button2{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button2:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button3{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button3:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button4{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button4:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button5{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button5:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button6{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button6:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button7{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button7:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button8{
+            padding: 0.6%;
+            background-color: rgb(13, 175, 175);
+            color: darksalmon;
+            font: 1em sans-serif;
+            border: 3px solid black;
+            border-radius: 20%;
+
+        }
+        button8:hover{
+            background-color: cadetblue;
+            font-size: 1.5rem;
+            color: coral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEomvaxCIrW04OauSTI4bPxu3qrGw4UatuKA&usqp=CAU);
+        background-size: cover;
+        }
+      
+    </style>
+    
+  
+
+</head>
+<body>
+    <button>Main</button>
+    <div class="wrapper">
+    <div id="button1" class="main">tab1</div>
+    <div class="p1"  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum obcaecati laudantium inventore et consectetur fugiat sed. Id sit, ratione quis beatae fuga accusantium culpa vel tempore pariatur hic fugit quo voluptatum earum modi aut quibusdam unde? Veniam ipsum perferendis ad minima architecto repellat, necessitatibus dicta animi! Facere itaque deleniti pariatur modi suscipit repudiandae explicabo soluta tempora reprehenderit ex, reiciendis magnam doloribus dicta iusto mollitia dolorem! Fuga impedit nesciunt quidem repellendus fugit alias corrupti laudantium quo, odit inventore libero nulla distinctio reprehenderit eligendi dolores aperiam aut omnis consequuntur perspiciatis perferendis quaerat! Adipisci facilis recusandae iste aspernatur, vero voluptates a maxime!
+        <button1 class="true1" fl>like</button1>
+<button2  class="false2" fr>dislike</button2>
+    </div>
+
+    <div id="button2"  class="main">tab2</div>
+    <div class="p2"   >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum obcaecati laudantium inventore et consectetur fugiat sed. Id sit, ratione quis beatae fuga accusantium culpa vel tempore pariatur hic fugit quo voluptatum earum modi aut quibusdam unde? Veniam ipsum perferendis ad minima architecto repellat, necessitatibus dicta animi! Facere itaque deleniti pariatur modi suscipit repudiandae explicabo soluta tempora reprehenderit ex, reiciendis magnam doloribus dicta iusto mollitia dolorem! Fuga impedit nesciunt quidem repellendus fugit alias corrupti laudantium quo, odit inventore libero nulla distinctio reprehenderit eligendi dolores aperiam aut omnis consequuntur perspiciatis perferendis quaerat! Adipisci facilis recusandae iste aspernatur, vero voluptates a maxime!
+        <button3  class="true3"  fl >like</button3>
+        <button4 class="false4"  fr>dislike</button4>
+    </div>
+
+    <div id="button3"  class="main">tab3</div>
+    <div class="p3"   >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum obcaecati laudantium inventore et consectetur fugiat sed. Id sit, ratione quis beatae fuga accusantium culpa vel tempore pariatur hic fugit quo voluptatum earum modi aut quibusdam unde? Veniam ipsum perferendis ad minima architecto repellat, necessitatibus dicta animi! Facere itaque deleniti pariatur modi suscipit repudiandae explicabo soluta tempora reprehenderit ex, reiciendis magnam doloribus dicta iusto mollitia dolorem! Fuga impedit nesciunt quidem repellendus fugit alias corrupti laudantium quo, odit inventore libero nulla distinctio reprehenderit eligendi dolores aperiam aut omnis consequuntur perspiciatis perferendis quaerat! Adipisci facilis recusandae iste aspernatur, vero voluptates a maxime!
+        <button5  class="true5"  fl >like</button5>
+        <button6 class="false6" fr>dislike</button6>
+    
+    </div>
+
+    <div id="button4"  class="main">tab4</div>
+    <div class="p4"   >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum obcaecati laudantium inventore et consectetur fugiat sed. Id sit, ratione quis beatae fuga accusantium culpa vel tempore pariatur hic fugit quo voluptatum earum modi aut quibusdam unde? Veniam ipsum perferendis ad minima architecto repellat, necessitatibus dicta animi! Facere itaque deleniti pariatur modi suscipit repudiandae explicabo soluta tempora reprehenderit ex, reiciendis magnam doloribus dicta iusto mollitia dolorem! Fuga impedit nesciunt quidem repellendus fugit alias corrupti laudantium quo, odit inventore libero nulla distinctio reprehenderit eligendi dolores aperiam aut omnis consequuntur perspiciatis perferendis quaerat! Adipisci facilis recusandae iste aspernatur, vero voluptates a maxime!
+    <button7 class="true7"   fl>like</button7>
+    <button8 class="false8"  fr>dislike</button8>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#button1").click(function(){
+            $(".p1").toggle();
+        });
+        $("#button2").click(function(){
+            $(".p2").toggle();
+        });
+        $("#button3").click(function(){
+            $(".p3").toggle();
+        });
+        $("#button4").click(function(){
+            $(".p4").toggle();
+        });
+        $("button").click(function(){
+            $(".wrapper").toggle();
+        });
+        $("button1").click(function(){
+            $(".true1").css("backgroundColor","green")
+        });
+        $("button2").click(function(){
+            $(".false2").css("backgroundColor","red")
+        });
+        $("button3").click(function(){
+            $(".true3").css("backgroundColor","green")
+        });
+        $("button4").click(function(){
+            $(".false4").css("backgroundColor","red")
+        });
+        $("button5").click(function(){
+            $(".true5").css("backgroundColor","green")
+        });
+        $("button6").click(function(){
+            $(".false6").css("backgroundColor","red")
+        });
+        $("button7").click(function(){
+            $(".true7").css("backgroundColor","green")
+        });
+        $("button8").click(function(){
+            $(".false8").css("backgroundColor","red")
+        });
+    });
+</script>
+</body>
+</html>
