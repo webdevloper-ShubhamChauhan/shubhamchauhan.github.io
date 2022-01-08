@@ -1,0 +1,818 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.new{
+    float: left;
+    margin-left: 2px;
+
+}
+.fr{
+    float: right;
+}
+.wrapper{
+    height: 95vh;
+    width: 100%;
+
+    position: relative;
+}
+.head{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(95, 160, 104);
+    position: absolute;
+}
+.footer{
+    height: 70vh;
+    width: 100%;
+    
+    position: absolute;
+    top: 26.3%;
+}
+.class-1{
+    height: 25vh;
+    width: 24%;
+
+    position: absolute;
+    left: 0.2%;
+}
+.class-2{
+    height: 25vh;
+    width: 24%;
+    
+    position: absolute;
+    left:25% ;
+}
+.class-3{
+    height: 25vh;
+    width: 24%;
+
+    position: absolute;
+    left: 52%;
+}
+.class-4{
+    height: 25vh;
+    width: 24%;
+   
+    position: absolute;
+    left:74%;
+}
+
+.c1{
+    height: 8vh;
+    width: 19.3%;
+    background-color: black;
+    border: 2px solid white;
+    position: absolute;
+    
+    left: 10%;
+    
+}
+.c2{
+    height: 8vh;
+    width: 19.3%;
+    background-color: maroon;
+    border: 2px solid white;
+    position: absolute;
+    
+    left:30%;
+    
+}
+.c3{
+    height: 8vh;
+    width: 19.3%;
+    background-color: yellow;
+    border: 2px solid white;
+    position: absolute;
+    
+    left:50%;
+    
+}
+.c4{
+    height: 8vh;
+    width: 19.3%;
+    background-color: gray;
+    border: 2px solid white;
+    position: absolute;
+    
+    left:70%;
+    
+}
+.c5{
+    height: 8vh;
+    width: 19.3%;
+    background-color: seagreen;
+    border: 2px solid white;
+    position: absolute;
+    
+    left: 90%;
+    
+}
+.c6{
+    height: 8vh;
+    width: 19.3%;
+    background-color: royalblue;
+    border: 2px solid white;
+    position: absolute;
+    top: 49%;
+    left: 10%;
+    
+}
+.c7{
+    height: 8vh;
+    width: 19.3%;
+    background-color:salmon ;
+    border: 2px solid white;
+    position: absolute;
+    top: 49%;
+    left:30%;
+    
+}
+.c8{
+    height: 8vh;
+    width: 19.3%;
+    background-color: blueviolet;
+    border: 2px solid white;
+    position: absolute;
+    top: 49%;
+    left:50%;
+    
+}
+.c9{
+    height: 8vh;
+    width: 19.3%;
+    background-color: red;
+    border: 2px solid white;
+    position: absolute;
+    top: 49%;
+    left: 70%;
+    
+}
+.c10{
+    height: 8vh;
+    width: 19.3%;
+    background-color: greenyellow;
+    border: 2px solid white;
+    position: absolute;
+    top: 49%;
+    left: 90%;
+    
+}
+i{
+    font-size: 2rem;
+    color: wheat;
+}
+i:hover{
+    font-size: 3rem;
+    color: tomato;
+}
+.b1{
+
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid black;
+    position: absolute;
+    
+    left: 10%;
+    
+}
+.b2{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid springgreen;
+    position: absolute;
+    
+    left:30%;
+    
+}
+.b3{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid honeydew;
+    position: absolute;
+    
+    left:50%;
+    
+}
+.b4{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid skyblue;
+    position: absolute;
+    
+    left:70%;
+    
+}
+.b5{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid maroon;
+    position: absolute;
+    
+    left: 90%;
+    
+}
+.b6{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid royalblue;
+    position: absolute;
+    top: 49%;
+    left: 10%;
+    
+}
+.b7{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 49%;
+    left:30%;
+    
+}
+.b8{
+    height: 8vh;
+    width: 19.3%;
+
+    border: 2px solid grey;
+    position: absolute;
+    top: 49%;
+    left:50%;
+    
+}
+.b9{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid coral;
+    position: absolute;
+    top: 49%;
+    left: 70%;
+    
+}
+.b10{
+    height: 8vh;
+    width: 19.3%;
+    
+    border: 2px solid red;
+    position: absolute;
+    top: 49%;
+    left: 90%;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: teal;
+}
+.icon1{
+    font-size: 4rem;
+    color: teal;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.icon1:hover{
+    font-size: 6rem;
+    color: royalblue;
+    cursor: pointer;
+}
+.left{
+    height:70vh ;
+    width:20% ;
+    
+    position: absolute;
+    left: 0.2%;
+    
+}
+.middle{
+    height: 70vh;
+    width: 60%;
+    background-color: rgb(127, 227, 245);
+    position: absolute;
+    left:20%;
+}
+.right{
+    height:70vh ;
+    width:20% ;
+    
+    position: absolute;
+    left:80%;
+    
+}
+.pic1{
+    width: 30vh;
+    height: 30vh;
+    background-color: slateblue;
+    border: 2px solid whitesmoke ;
+    border-radius: 20%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    background-image: url(data:image/jpeg;base64,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);
+display: block;
+
+
+}
+.pic2{
+    width: 50vh;
+    height: 30vh;
+    background-color: rgb(90, 205, 167);
+    border: 2px solid whitesmoke ;
+    border-radius: 2px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: block;
+
+}
+.left-2{
+    height: 70vh;
+    width:50%;
+    background-color: rgb(116, 226, 43);
+
+
+}
+h5{
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+
+.col1{
+
+    height: 8vh;
+    width: 19.3%;
+    background-color: rosybrown;
+    border: 2px solid black;
+    position: absolute;
+    
+    left: 0%;
+    
+}
+.col2{
+    height: 8vh;
+    width: 19.3%;
+    background-color: seagreen;
+    border: 2px solid black ;
+    position: absolute;
+    
+    left:20%;
+    
+}
+.col3{
+    height: 8vh;
+    width: 19.3%;
+    background-color: royalblue;
+    border: 2px solid black;
+    position: absolute;
+    
+    left:40%;
+    
+}
+.col4{
+    height: 8vh;
+    width: 19.3%;
+    background-color: olivedrab;
+    border: 2px solid black;
+    position: absolute;
+    
+    left:60%;
+    
+}
+.col5{
+    height: 8vh;
+    width: 19.3%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    position: absolute;
+    
+    left: 80%;
+    
+}
+.col6{
+    height: 8vh;
+    width: 19.3%;
+    background-color: cadetblue;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    
+}
+.col7{
+    height: 8vh;
+    width: 19.3%;
+    background-color: sienna;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left:20%;
+    
+}
+.col8{
+    height: 8vh;
+    width: 19.3%;
+background-color: coral;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left:40%;
+    
+}
+.col9{
+    height: 8vh;
+    width: 19.3%;
+    background-color: chartreuse;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left: 60%;
+    
+}
+.col10{
+    height: 8vh;
+    width: 19.3%;
+    background-color: burlywood;
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left: 80%;
+    
+}
+.shadow{
+    box-shadow: 0 px 0px 10px black;
+}
+.shadow1{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 25%;
+    background-color: palegreen;
+    position: absolute;
+    top: 15%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow1:hover{
+    font-size: 2rem;
+    color: peru;
+}
+
+.shadow2{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 23%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow2:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow3{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 32%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow3:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow4{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 42%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow4:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow5{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top:52%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow5:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow6{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 62%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow6:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow7{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 70%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow7:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow8{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 80%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow8:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow9{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 88%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow9:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.shadow10{
+    height: 4vh;
+    width: 18vh;
+    border-radius: 20%;
+    background-color: palegreen;
+    position: absolute;
+    top: 95%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shadow10:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border1{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:15% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:600;
+}
+.border1:hover{
+    font-size: 2rem;
+    color: peru;
+}
+
+.border2{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:24% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border2:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border3{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:32% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border3:hover{
+    height: 4vh;
+    width: 18vh;
+    font-size: 2rem;
+    color: peru;
+}
+.border4{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:42% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border4:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border5{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:52% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border5:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border6{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:62% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border6:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border7{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:70% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border7:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border8{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:80% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border8:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border9{
+    height: 4vh;
+    width: 18vh;
+    position: absolute;
+    top:88% ;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.border9:hover{
+    font-size: 2rem;
+    color: peru;
+}
+.border10{
+    height: 4vh;
+    width: 18vh;
+    
+        position: absolute;
+        top:95% ;
+        background-color: palegreen;
+        border: 3px solid black;
+        border-radius: 20%;
+        font-size: 1.3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+    .border10:hover{
+        font-size: 2rem;
+        color: peru;
+    }
+    .card{
+        height:35vh ;
+        width: 85vh;
+        background-color: blueviolet;
+        position: absolute;
+        top: 12%;
+        left: 7%;
+        display: none;
+    }
+.re{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    border: 1px solid blue;
+    text-align: center;
+    position: fixed;
+    left: 30%;
+    bottom: 10%;
+}
+.re i{
+    font-size: 2.5rem;
+    margin-top: 10px;
+
+}
+.re:hover{
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+}
+.re1{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    border: 1px solid blue;
+    text-align: center;
+    position: fixed;
+    left: 65%;
+    bottom: 10%;
+}
+.re1 i{
+    font-size: 2.5rem;
+    margin-top: 10px;
+
+}
+.re1:hover{
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+}
