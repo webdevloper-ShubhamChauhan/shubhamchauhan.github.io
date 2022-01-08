@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated</title>
+    <style>
+      .head{
+          height: 150px;
+          width: 500px;
+            background-color: rgb(42, 150, 15);  
+           margin: auto;
+           background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.teahub.io%2Fviewwp%2FiJxiwm_nature-background-images-photoshop%2F&psig=AOvVaw38w49inVC7Bbju3fSIYcqh&ust=1641657512868000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCODUufuAoPUCFQAAAAAdAAAAABAD);
+          background-size: cover;
+        
+      }  
+      .button{
+          padding: 2%;
+          font-size: 1.2rem;
+          font-family: 'Times New Roman', Times, serif;
+          color: cadetblue;
+        
+      }
+      button:hover{
+        border: 2px solid black;
+          border-radius: 20%;
+          font-size: 2rem;
+          color: brown;
+      }
+        
+    </style>
+</head>
+<body>
+    <button>animated</button>
+    <div class="head">
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script >
+            $(document).ready(function() {
+                $("button").click(function(){
+                    let div = $("div");
+                div.animate({
+                    
+                    opacity:'0.5',
+                    height:'250px',},"fast");
+
+                    div.animate({
+                    
+                    opacity:'0.8',
+                    width:'200px',},"fast");
+                    div.animate({
+                    
+                    opacity:'1',
+                    height:'400px',},"fast");
+
+                    div.animate({
+                    
+                    opacity:'2',
+                    width:'450px',},"fast");
+                    
+                });
+                
+            });
+        </script>
+    </div>
+</body>
+</html>
