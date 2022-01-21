@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax1</title>
+    <style>
+        button{
+            background-color: brown;
+            color: cornflowerblue;
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        button:hover{
+            color: crimson;
+            background-color: darkolivegreen;
+            font-size: 1.8rem;
+        }
+        body{
+            background-color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <p id="p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum quam voluptas quibusdam tenetur. Unde doloribus quaerat eaque, ipsam, delectus inventore nisi sapiente aliquid nemo aperiam earum illo minima iste.</p>
+    <div id="div1"><h1>jquery to ajax</h1></div>
+    <button id="button">panel</button>
+    <button id="button2">filter</button>
+    <button id="button3">index</button>
+    <button id="button4">sibling</button>
+    <button id="button5">tranversin</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+    $("#button").click(function(){
+        $("#div1").load('panel.html')
+    })
+    $("#button2").click(function(){
+        $("#div1").load('filter.html')
+    })
+    $("#button3").click(function(){
+        $("#div1").load('index.html')
+    })
+    $("#button4").click(function(){
+        $("#div1").load('sibling.html')
+    })
+    $("#button5").click(function(){
+        $("#div1").load('tranversin.html')
+    })
+})
+//.load('filename')
+// we are attach multiple file with using of load
+// it work like a ancher tag which is is also take a file name
+</script>
+</body>
+</html>
