@@ -1,0 +1,64 @@
+
+
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Traversing - Filtering</title>
+</head>
+
+<body>
+    <!-- The first(), last(), eq(), filter() and not() Methods
+    The most basic filtering methods are first(), last() and eq(), which allow you to select a specific element based on
+    its position in a group of elements.
+    Other filtering methods, like filter() and not() allow you to select elements that match, or do not match, a certain
+    criteria. -->
+
+    <h1>Welcome to My Homepage</h1>
+
+<p>This is a paragraph.</p>
+
+<div style="border: 1px solid black;">
+  <p class="intro">A paragraph in a div.</p>
+  <p>Another paragraph in a div.</p>
+</div>
+<br>
+
+<div style="border: 1px solid black;">
+  <p>A paragraph in another div.</p>
+  <p class="intro">Another paragraph in another div.</p>
+</div>
+<br>
+
+<div style="border: 1px solid black;">
+  <p class="intro">A paragraph in another div.</p>
+  <p>Another paragraph in another div.</p>
+</div>
+<br><br>
+<button id="btn1">first()</button>
+<button id="btn2">last()</button>
+<button id="btn3">eq()</button>
+<button id="btn4">filter()</button>
+<button id="btn5">not()</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#btn1").click(function(){$("div").first().css("background-color", "blue")});
+
+$("#btn2").click(function(){$("div").last().css("background-color", "yellow")});
+
+$("#btn3").click(function(){$("p").eq(4).css("background-color", "red")});
+
+$("#btn4").click(function(){$("p").filter(".intro").css("background-color", "green")});
+
+$("#btn5").click(function(){$("p").not(".intro").css("background-color", "orange")});
+});
+</script>
+</body>
+
+</html>
