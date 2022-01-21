@@ -1,0 +1,102 @@
+
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@webdevloper-ShubhamChauhan 
+UmaVerma
+/
+umaverma.github.io
+Public template
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+umaverma.github.io/jQuery/jQuery Traversing/jQuery Traversing - Ancestors.html
+@UmaVerma
+UmaVerma Create jQuery Traversing - Ancestors.html
+Latest commit 7d6cc9e 2 days ago
+ History
+ 1 contributor
+61 lines (55 sloc)  1.72 KB
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Traversing - Ancestors</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .ancestors * { 
+          display: block;
+          border: 2px solid lightgrey;
+          color: lightgrey;
+          padding: 5px;
+          margin: 15px;
+        }
+        </style>
+</head>
+<body>
+    <!-- Traversing Up the DOM Tree
+Three useful jQuery methods for traversing up the DOM tree are:
+parent()
+parents()
+parentsUntil() -->
+
+<div class="ancestors">
+    <div style="width:500px;">div (great-grandparent)
+      <ul>ul (grandparent)  
+        <li>li (direct parent)
+          <span>span</span>
+        </li>
+      </ul>   
+    </div>
+  </div>
+  <hr>
+  <br><br><br><br><br>
+  <hr>
+  <button id="btn1">click to parent</button>
+  <button id="btn2">click to ancestors</button>
+  <button id="btn3">click to filtered parent</button>
+  <button id="btn4">click to until parent</button>
+
+  <script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+          $("span").parent().css({"color": "red", "border": "2px solid red"});});
+
+          $("#btn2").click(function(){
+          $("span").parents().css({"color": "green", "border": "2px solid green"});});
+
+          $("#btn3").click(function(){
+            $("span").parents("ul").css({"color": "blue", "border": "2px solid blue"});});
+
+          $("#btn4").click(function(){
+            $("span").parentsUntil("div").css({"color": "yellow", "border": "2px solid yellow"});
+          });
+    });
+    </script>
+</body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
