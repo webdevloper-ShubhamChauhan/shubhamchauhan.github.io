@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    height: 98vh;
+    width: 100%;
+    /* background-color: darkslategrey; */
+    position: relative;
+    background-image: url(pic8.jpg);
+    background-size: cover;
+}
+.left{
+    height: 98vh;
+    width: 65%;
+    background-color: rgba(0, 139, 0,0.2);
+    position:absolute ;
+    left: 0%;
+    top: 20%;
+    text-align: center;
+}
+.right{
+    display: none;
+    height: 98vh;
+    width:35%;
+    background-color: rgba(0, 121, 0,0.2);
+    position:absolute ;
+    left: 65%;
+    top: 0;
+    
+}
+#email{
+    position: absolute;
+    top:42vh;
+    width: 40vh;
+    height: 6vh;
+    border-radius: 2px solid black;
+    background-color: whitesmoke;
+    left: 20%;
+    text-align: center;
+    border-radius: 8%;
+    
+
+    
+}
+#i{
+    position: absolute;
+    font-size: 5rem;
+    padding: 22%;
+    left: 10%;
+    
+
+    color: rgb(95, 16, 16);
+    
+}
+#pass{
+    position: absolute;
+    top:50vh ;
+    height: 8vh;
+    width: 40vh;
+    left: 20%;
+    border-radius:2px solid black ;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+
+#sumbit{
+    position: absolute;
+    top: 60vh;
+    height: 8vh;
+    width: 50vh;
+    border-radius:2px solid black ;
+    left: 17%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 25%;
+    font-size: 2rem;
+    color: black;
+    background: blue;
+}
+.log{
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    border-radius: 25%;
+        background-color: darkslategrey;
+        display: none;
+
+}
+#s{
+    font-size: 1.2rem;
+    
+    position: absolute;
+    top: 70vh;
+    left: 40vh;
+}
+.right2{
+    height: 98vh;
+    width: 35%;
+    background-color: rgba(56, 0, 0,0.2);
+    position:absolute ;
+    left:
+     65%;
+    top: 0;
+    display: none;
+}
+#type1{
+    padding: 2%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type2{
+    padding: 2%;
+    position: absolute;
+    left: 0.5%;
+    top: 15%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type3{
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type4{
+    padding: 2%;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type5{
+    padding: 2%;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type6{
+    padding: 2%;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#type7{
+    padding: 2%;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+#gen1{
+    padding: 2%;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+
+}
+#gen2{
+padding: 4%;
+position: absolute;
+left: 65%;
+    top: 80%
+}
+
+#login{
+    position: absolute;
+    top: 0;
+    left: 65%;
+    font-size: 1.5rem;
+    background-color: burlywood;
+}
+#reg{
+    position: absolute;
+    top: 0;
+    left: 75%;
+    font-size: 1.5rem;
+    background-color: burlywood;
+}
+#re{
+    position: absolute;
+    top: 0;
+    left: 90%;
+    font-size: 1.5rem;
+    background-color: burlywood;
+}
