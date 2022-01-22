@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="button">
+        <button id="login">Login</button>
+        <button id="reg">Registration</button>
+        <button id="re">Refresher</button>
+    </div>
+
+        <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam minima magnam sint delectus laudantium mollitia. Quidem soluta quis doloremque fuga, natus cum eos architecto minus minima iste quo aliquid obcaecati commodi similique iusto maxime delectus debitis nobis voluptate ea laboriosam nihil vel. Nemo repudiandae, adipisci est alias expedita eius ipsa porro in dolorem ab aliquam itaque reprehenderit dolores iure odio! Excepturi magnam aspernatur accusamus eaque non id numquam sed soluta maxime ipsa voluptates aliquam quo ullam reiciendis possimus, eos consequatur ipsum perspiciatis eius tenetur voluptate tempora beatae animi! Perspiciatis, itaque rerum. Quaerat sit aut veniam. Explicabo temporibus deserunt ab nam nulla voluptatibus, perferendis repudiandae iusto error libero, blanditiis beatae similique fuga aliquid architecto quas omnis sed et est suscipit accusantium possimus. Error dolor maiores quibusdam, ullam dolores ducimus commodi reprehenderit quis libero aspernatur iusto odit corporis architecto, quod assumenda, deleniti minima accusantium mollitia! Sunt voluptatibus ullam voluptatum, quidem praesentium voluptatem neque, inventore facilis repellat perferendis earum cupiditate sed excepturi aperiam officiis sequi nam eveniet, beatae dicta? Eum voluptas ut excepturi officiis, maiores ratione qui velit beatae inventore voluptatem nobis officia odio obcaecati quasi. Mollitia necessitatibus harum aliquam id est consequatur hic amet ad quaerat vero. Impedit illo est nam mollitia omnis pariatur aperiam laudantium adipisci consequuntur id. Sit distinctio, est ipsam autem eligendi vel porro ea corrupti quos asperiores dicta rem ducimus corporis quis ratione quam error unde sapiente. Dolorum consequuntur rem vitae dolor assumenda cupiditate temporibus, nesciunt, eius magnam ut ipsum, nihil eaque fugiat at quidem necessitatibus laborum porro labore maxime voluptatem itaque? Ab placeat, earum perferendis dolorum dolor cupiditate commodi ad, est dignissimos nesciunt voluptatum repellendus optio, itaque eveniet exercitationem. Repellat, tenetur necessitatibus praesentium vel quasi accusantium. Numquam, neque aspernatur hic dolorem accusantium voluptas aliquam minima ad cupiditate, eveniet eos magni sint? Minima eligendi nostrum facere error, asperiores esse et quibusdam, vero aut inventore sunt, totam doloremque dicta. Consequatur illo cum sequi dicta officia quis vitae expedita neque. Odit omnis veritatis dicta perspiciatis! Veritatis non, dignissimos ea qui, quia voluptates hic molestias quis nostrum aliquam assumenda beatae voluptas eius vel asperiores amet, ab unde perspiciatis? Laboriosam, placeat? Saepe expedita dolor ullam totam omnis ut quod voluptate, at atque, impedit quae reprehenderit, assumenda nostrum nulla tenetur sequi. Officia hic quis pariatur sapiente alias quod inventore amet iste, explicabo excepturi adipisci labore consequatur architecto fugit assumenda dolorem totam nostrum reiciendis corporis voluptatibus, corrupti, quidem quaerat. Molestias porro sapiente omnis!</div>
+        <div class="right">
+            <div id="log">
+                <i id="i" class="lni lni-instagram"></i>
+                <form >
+           
+                    <div ><input id="email" type="email" name="uid" placeholder="Enter Your Email"></div>
+                    <div><input id="pass" type="password" name="upass" placeholder="Enter Your Password"></div>
+                    <div><input id="sumbit" type="sumbit" name="login" value="Login now"></div>
+                       <div id="s">alredy Singup?<a href="#">Singup</a></div> 
+        
+                </form>
+            </div>
+
+    
+</div>
+<div class="right2">
+    <div ><input id="type1" type="email" name="uid" placeholder="Enter Your Email"></div>
+    <div><input id="type2" type="firstname" name="fname" placeholder="Enter your first name"  ></div>
+    <div><input id="type3" type="lastname" name="lname" placeholder="Enter your last name"  ></div>
+    <input id="type4" type="regfather" name="text" placeholder="Enter Your Father Name">
+    <input id="type5" type="date" name="dob" placeholder="Enter Your Name"> 
+    <div><input id="type6" type="password" name="upass" placeholder="Enter Your Password"></div>
+    <div><input id="type7" type="sumbit" name="registration" value="Registration now"></div>
+    <input id="gen1" type="radio" name="gender" value="stu"  >male
+     <input id="gen2" type="radio" name="gender" value="stu" > female
+    <form >
+      
+    </form>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#login").click(function(){
+                $(".right").toggle();
+            })
+            $("#reg").click(function(){
+                $(".right2").toggle();
+            })
+            $("#re").click(function(){
+                $(".right").hide(100);
+            })
+        })
+    </script>
+</body>
+</html>
