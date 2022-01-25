@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+    #counter{
+        background-color: blueviolet;
+    }
+</style>
+</head>
+<body>
+    <div id="counter">1</div>
+    <script>
+      let incounter=  setInterval(val,5);
+        let x=1;
+        function val(){
+            // we can take 1 decrement
+            if(x==99){
+                clearInterval(incounter);
+            }
+            x++;
+            //set interval timer 
+           // document.getElementById('counter').innerHTML=x;
+           let a = document.getElementById('counter');
+           if(a=="500px"){
+               return ;
+           }
+           a.style.width=x+"px";
+           
+        }
+
+
+    </script>
+    
+</body>
+</html>
