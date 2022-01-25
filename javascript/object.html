@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+    <style>
+        #head{
+            height: 400px;
+            width: 600px;
+            background-color: burlywood;
+            font-size: 4rem;
+            font-weight: bolder;
+            color: cornflowerblue;
+            text-align: center;
+        margin: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h2 id="a">javascript</h2>
+    <div id="head"></div>
+    <script>
+        let car = {
+            person : "shubham chauhan",
+            weight : "1tone",
+
+            cost :"1cr",
+            color :"zblack"
+        }
+        document.getElementById('a').innerHTML=car["person"]+""+car["weight"]+""+ car["cost"]+""+car["color"];
+//new to pass name and id
+let name ={
+    myname:"Shubham Chauhan"+"</br>",
+
+    qualification:"b.tech"+"</br>",
+    id:"54545"+"</br>",
+    expirence:"Fresher"
+
+
+}
+document.getElementById('head').innerHTML=name["myname"]+name["qualification"]+name["id"]+name["expirence"]
+
+    </script>
+</body>
+</html>
