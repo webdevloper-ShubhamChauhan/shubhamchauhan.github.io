@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formnextjavascript</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: cover;
+        }
+        form{
+            width: 300px;
+            background: rgba(255, 0, 0,0.2);
+            padding: 15px 40px 40px;
+            border: 2px solid rgb(170, 8, 8);
+            margin: 48PX auto 0;
+            border-radius: 5px;
+        }
+        input{
+            background: rgba(245, 245, 245,0.2);
+            border: 1px solid rgba(204, 0, 0,0.2);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border-radius: 2px;
+        }
+        button{
+            font-size: 110%;
+            
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 80px;
+  
+    
+    cursor: pointer;
+        }
+    </style>
+    <script>
+        function val(){
+            let data = document.forms['form1']['fname'].value;
+            let data1 = document.forms['form1']['lname'].value;
+            let data2 = document.forms['form1']['uid'].value;
+            let data3 = document.forms['form1']['month'].value;
+            
+            if( data == ''){
+                alert("please this read this msg fill fname");
+            }
+            else if(data1 == ''){
+                alert("please fill last name");
+
+            }
+            if(data2==''){
+                alert("enter your email")
+            }
+            else if(data3==''){
+                alert("enter month")
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <form name="form1" onsubmit="val()">
+        <input type="text" name="fname" placeholder="enter your first name"  >
+        <input type="text" name="lname" placeholder="enter your last name" >
+        <input type="email" name="uid" >
+        <input type="month" name="month" >
+
+        <button>validation</button>
+</body>
+</html>
