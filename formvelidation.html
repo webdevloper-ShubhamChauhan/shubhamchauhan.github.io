@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<body>
+    <form >
+        <input type="text" name="fname" placeholder="enter your first name" id="a" >
+        <input type="text" name="fname" placeholder="enter your last name" >
+
+        <button>validation</button>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                  var res=  $("#a").val();
+                  if(res==''){
+                      alert("please fill this statement")
+                  }
+
+                })
+            })
+        </script>
+
+    </form>
+    
+</body>
+</html>
