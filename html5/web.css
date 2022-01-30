@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color:royalblue ;
+    text-align: center ;
+}
+header a{
+    font-size: 1.5rem;
+    color: seashell;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav{height: 50px;
+    width: 100%;
+    background-color: springgreen;
+
+}
+nav ul {text-decoration: none;
+    
+}
+nav ul li {float: left;
+list-style: none;
+    margin-left: 150px;
+    margin-top: 5px;
+
+    
+}
+
+nav a{ 
+    font-size: 2rem;
+    color:navajowhite;
+    margin-top: 5px;
+
+
+}
+
+i:hover{
+    font-size: 2.5rem;
+    color: tan;
+}
+#twitter:hover{
+    font-size: 2.5rem;
+    color: tan;
+}
+#youtube:hover{
+    font-size: 2.5rem;
+    color: tan;
+}
+#fa:hover{
+    font-size: 2.5rem;
+    color: tan;
+}
+ 
+section{
+    height: 400px;
+    width: 100%;
+}
+section video{
+    position: relative;
+    height:auto;
+    width: 100%;
+}
+article{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    height: 400px;
+    width: 49%;
+    
+}
+#email{
+    position: absolute;
+    top: 60vh;
+    width: 40vh;
+    height: 6vh;
+    border-radius: 2px solid black;
+    background-color: whitesmoke;
+    left: 2%;
+    text-align: center;
+    border-radius: 5%;
+    
+
+    
+}
+#pass{
+    position: absolute;
+    top:70vh ;
+    height: 8vh;
+    width: 40vh;
+    left: 2%;
+    border-radius:2px solid black ;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+
+#sumbit{
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    height: 8vh;
+    width: 50vh;
+    border-radius:2px solid black ;
+ 
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20%;
+    font-size: 2rem;
+    color: black;
+    background: blue;
+}
+
+
+
+#s{
+    font-size: 1.2rem;
+    
+    position: absolute;
+    top: 90vh;
+    left: 20vh;
+}
+#icon{
+    position: absolute;
+    top: 39vh;
+    left: 10%;
+    font-size: 5rem;
+    padding: 2%;
+    
+    
+   
+
+    color: rgb(66, 90, 221);
+    
+}
+#icon:hover{
+    color: white;
+    font-size: 6rem;
+}
+aside{
+    position: absolute;
+    top: 33vh;
+    left: 60%;
+    height: 400px;
+    width: 49%;
+}
+
+
+#footer{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 120vh;
+    left: 30%;
+
+    
+}
