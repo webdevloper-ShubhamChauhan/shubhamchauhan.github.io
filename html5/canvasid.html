@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+    canvas{
+        border: 2px solid black;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 2px black;
+    }
+    h1{
+        text-align: center;
+        color: coral;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDJYWmKr3d9hSJePQHR4D_nGVMq-XJlH8Tg&usqp=CAU);
+   background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <h1>Identification Card By Canvas</h1>
+    <canvas id="demo" height="200px" width="450px">
+        
+    </canvas>
+    <script>
+var c = document.getElementById('demo');
+var ctx = c.getContext("2d");
+ctx.moveTo(180,200)
+ctx.lineTo(180,0)
+ctx.stroke();
+
+ctx.moveTo(250,30)
+ctx.lineTo(400,30)
+ctx.stroke();
+
+ctx.moveTo(250,50)
+ctx.lineTo(400,50)
+ctx.stroke();
+ctx.moveTo(250,70)
+ctx.lineTo(400,70)
+ctx.stroke();
+
+ctx.moveTo(250,90)
+ctx.lineTo(400,90)
+ctx.moveTo(250,110)
+ctx.lineTo(400,110)
+ctx.moveTo(250,130)
+ctx.lineTo(400,130)
+ctx.moveTo(250,150)
+ctx.lineTo(400,150)
+ctx.stroke();
+
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"blue");
+grd.addColorStop(1,"red");
+ctx.fillStyle=grd;
+ctx.fillRect(0,0,180,200);
+
+
+    </script>
+</body>
+</html>
