@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="template2.css">
+</head>
+<body>
+    <nav>
+        <h1>B R Architects</h1>
+        <a href="#" id="project">Project</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="contact">Contact</a>
+    </nav>
+    <header>
+       <div class="blank"></div>
+        <img src="architect.jpg" alt="B R Architects">  <h2>B R Architects</h2>
+    </header>
+    <div class="project"><h1>Project</h1></div>
+    <section>
+        <ul>
+        <li><img src="house1.jpg" alt=""><h3>Summer House</h3></li>
+        <li><img src="house2.jpg" alt=""> <h3>Brick House</h3></li>
+        <li><img src="house3.jpg" alt=""><h3>Renovated</h3></li>
+        <li><img src="house4.jpg" alt=""><h3>Barn House</h3></li>
+    </ul>
+      <ul>
+        <li><img src="house2 (1).jpg" alt=""><h4>Summer House</h4></li>
+        <li><img src="house2(2).jpg" alt=""><h4>Renovated</h4></li>
+        <li><img src="house2 (3).jpg" alt=""><h4>Barn House</h4></li>
+        <li><img src="house3 (4).jpg" alt=""><h4>Brick House</h4></li>
+    </ul>
+    </section>
+    <article>
+        <div ><h1>About</h1></div>
+        <div class="about"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ex aliquam! Molestiae inventore beatae voluptatem eligendi ipsa, ipsum pariatur odio voluptate sed iure hic sit enim error dolore placeat alias veritatis. Ab, iure atque? Quibusdam earum et sapiente suscipit, quasi vero, ullam, quaerat fugit vitae ab incidunt. Aliquam, velit consequatur corporis excepturi consectetur vero molestias rem illo vel reprehenderit sint distinctio recusandae, praesentium temporibus earum error sapiente asperiores consequuntur veniam. Eaque, aliquid. Facilis dolorum recusandae eligendi consectetur perferendis modi aperiam tenetur amet fuga nam illum sapiente aspernatur impedit aut neque similique nisi, dicta, harum dolores repellat? Ut error quaerat tenetur!</p></div>
+        <div class="image">
+            <ul>
+
+                <li><img src="men1.jpg" alt="men1"></li>
+                
+                <li><img src="men2.jpg" alt="men2"></li>
+                <li><img src="men3.jpg" alt="men3"></li>
+                <li><img src="men4.jpg" alt="men4"></li>
+
+            </ul>
+    
+                  <div class="men1"><h1>John Doe</h1> <h3>CEO & Founder</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eos, at ut vitae asperiores quaerat ratione, id officia soluta ipsam quo distinctio culpa, deleniti sequi et placeat aspernatur. Porro, saepe.</p></div>
+                  <div class="men2"><h1>Jane Doe</h1> <h3>Architects</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe aut voluptatum et ab. Similique animi soluta officiis quos delectus? Praesentium officia reiciendis fuga cupiditate nemo cum corrupti quis hic.</p></div>
+                  <div class="men3"><h1>Mike Ross</h1><h3>Architects</h3> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt inventore aut aperiam esse possimus, placeat accusamus tempora excepturi, in illo porro, est illum velit amet eos ducimus dolorem recusandae perspiciatis?</p></div>
+                  <div class="men4"><h1>Dan Star</h1> <h3> Architects</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet iste excepturi unde porro, sunt odio minus necessitatibus. Eum ipsa tempore ab consequuntur aspernatur fugiat repudiandae, laudantium debitis eveniet quas? Numquam!</p></div>
+
+                  <div class="info1"><h1>Contact</h1></div>
+                  <div class="info2"><h1>Contact</h1></div>
+                  <div class="info3"><h1>Contact</h1></div>
+                  <div class="info4"><h1>Contact</h1></div>
+                   
+                   
+               
+           
+        </div>
+
+    </article>
+    <div class="contact">
+        <h1>Contact</h1>
+        <form action="" method="post"></form>
+        <input type="text" name="fname" placeholder="Name" size="140">
+        <input type="email" name="uid" placeholder="Email" size="140">
+        <input type="text" name="subject" placeholder="Subject" size="140" >
+       <input type="text" name="Comment" placeholder="Comment" size="140">
+        <input type="button" value="Send Message" id="button">
+    </div>
+
+    
+    <aside>
+        <img src="map.jpg" alt="map">
+    </aside>
+    <footer><a href="#">Powerd By B R Architects</a></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#project").click(function(){
+                $(".project,section").show();
+                $("header").hide()
+                $("article").hide();
+                $("aside").hide();
+                $(".contact").hide();
+
+            })
+            $("#about").click(function(){
+                $(".project,section").hide();
+                $("header").hide()
+                $("article").show();
+                $("aside").hide();
+                $(".contact").hide();
+
+            })
+            $("#contact").click(function(){
+                $(".project,section").hide();
+                $("header").hide()
+                $("article").hide();
+                $("aside").hide();
+                $(".contact").show();
+
+            })
+        })
+    </script>
+</body>
+
+</html>
