@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+</head>
+<body>
+    <nav id="nav">
+      <h1>Gourmet Au Catering </h1>
+      
+      <a href="#"  onclick="tab(1)">About</a>
+      <a href="#" onclick="tab(2)">Menu</a>
+      <a href="#" onclick="tab(3)" >Contact</a>
+    </nav>
+    <header >
+        <img src="hamburger.jpg" alt="" >
+    </header>
+    <section id="about">
+        <div class="Catering1">
+            <img src="about.jpg" alt="about">
+        </div>
+        <div class="Catering2">
+         <ul>
+             <li><h2>About Catering</h2></li>
+             <li><h3>Tradition Since 1889</h3></li>
+             <li><p>The Catering was Founded In Modinagar Ghazibad Utterpardesh Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui suscipit consequuntur quas pariatur quisquam consequatur esse. Labore animi, provident deserunt sed facere, aut distinctio quasi, maxime minima velit non tenetur ducimus laudantium nemo perspiciatis? Ab quidem labore velit ratione, beatae molestias enim nihil quae nisi vitae quos eum dignissimos mollitia error quod temporibus tenetur placeat? Ratione beatae alias expedita voluptate labore! Eveniet mollitia corrupti asperiores numquam. Sequi laudantium deleniti est laboriosam temporibus, beatae reprehenderit at et error. Recusandae corporis similique aspernatur quam sit non maxime, enim culpa nulla error, eum cumque tempora fugit omnis ut in asperiores ullam aperiam quisquam nam eligendi. Rerum aspernatur voluptate reprehenderit error, dicta placeat minus quisquam dignissimos obcaecati quo assumenda eos aperiam totam iusto veritatis nobis sequi, consequuntur, dolorem alias fuga ab impedit perspiciatis laborum! Facilis numquam esse, qui minus iste suscipit officia ratione excepturi illum mollitia dolorum repudiandae sit quod! Facere ipsa alias officia voluptas nemo quia ad, cum autem veritatis ratione praesentium animi et excepturi consectetur perferendis aperiam explicabo vero fuga iure doloremque quo</p></li>
+         </ul>
+        </div>
+    </section>
+    <div id="menu">
+        <article >
+<h1>Our Menu</h1><br><br><br>
+<h4>Bread  Basket</h4><br><br>
+<p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br><br><br>
+<h4>Belgian Waffle</h4><br>
+<p>Vanilla flavored batter with malted flour 7.50</p><br><br><br>
+<h4>Scrambled eggs</h4><br><br>
+<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br><br><br>
+<h4>Blueberry Pancakes</h4><br><br>
+<p>With syrup, butter and lots of berries 8.50</p>
+
+        </article>
+        <aside>
+            <img src="menu.jpg" alt="Menu">
+        </aside>
+    </div>
+   
+    <div class="contact" id="contact">
+        <h1>Contact</h1><br><br>
+        
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p><br><br><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p><br><br>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p> <br><br><br>
+        <form action="" method="post">
+            <p><input  type="text" placeholder="Name" required name="Name" size="175"></p><br><br>
+      <p><input  type="number" placeholder="How many people" required name="People" size="60"></p><br><br>
+      <p><input  type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p><br><br>
+      <p><input type="text" placeholder="Message \ Special requirements" required name="Message" size="175"></p><br><br>
+      <p><button type="submit">SEND MESSAGE</button></p>
+
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+    <footer>
+        <a href="#">Power By Indian Food :shubhamchauhan9058@gmail.com</a>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li> 
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </footer>
+    <script>
+    function tab(data){
+        if(data==1){
+            document.getElementById('about').style.display="block"
+            document.getElementById('menu').style.display="none"
+            document.getElementById('contact').style.display="none"
+        }
+        else if (data==2){
+            document.getElementById('about').style.display="none"
+            document.getElementById('menu').style.display="block"
+            document.getElementById('contact').style.display="none"
+        }
+        else if(data==3){
+            document.getElementById('about').style.display="none"
+            document.getElementById('menu').style.display="none"
+            document.getElementById('contact').style.display="block"
+        }
+    }
+    </script>
+    
+</body>
+</html>
