@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;}
+nav{height: 10vh; width: 100%; background-color: azure;}
+nav h1,a{text-decoration: none;color: black;}
+  h1{float: left; margin-left: 10px;}
+ nav a{float: right; padding: 2%; font-family: 'Times New Roman', Times, serif; font-weight: bolder;font-size: 1.3rem;}
+ a:hover{font-size: 1.5rem; background-color: aquamarine;}
+header{height: 100vh;width: 100%; position: relative;}
+header img {height: 100vh;width: 100%;}
+header h2{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); font-size: 2rem; color: darkslategray;}
+.blank{height: 10vh;width: 10vh; background-color: rgba(0, 0, 0,0.5); position: absolute;top: 46%;left: 42%;}
+.project{height: 10vh;margin-top: 20px; background-color: blanchedalmond;}
+section{height: 100vh;width: 100%;position: relative;}
+section ul{text-decoration: none; }
+section ul li {list-style: none; float: left; margin: 1% }
+section ul li h3{position: absolute; top: 2%;font-size: 1.4rem;color: antiquewhite; background-color: black;padding: 0.5%;}
+section ul li h4{position: absolute; top: 37%; font-size: 1.4rem;color: antiquewhite; background-color: black; padding: 0.5%;}
+ img{height: 30vh; width:100%;}
+ article{position: relative;  height: 100vh;width: 100%;}
+ article div{position: absolute;top: 0%; left: 2%; font-size: 2rem;}
+ article p{margin-top: 60px;  font-size: 1.3rem;}
+ .about{height: 50vh; width: 98%; margin-top: 10px;}
+ .image{height: 50vh; width: 98%; position: absolute; top: 35%;}
+ .image ul{text-decoration: none;}
+ .image ul li{list-style: none;float: left; margin: 1%; }
+ .image ul li img{height: 30vh;width: 100%;}
+.men1{height: 30vh; width: 24.25%;  position: absolute; top: 70%; left: 0%; }
+.men1 h3{position: absolute; top: 30%;}
+.men1 p{position: absolute; top: 35%;}
+
+
+
+.men2{height: 30vh; width: 24.25%;  position: absolute;top: 70%; left: 24.50%; }
+.men2 h3{position: absolute; top: 30%; left: 2%;}
+.men2 p{position: absolute; top: 35%; left: 2%;}
+.men3{height: 30vh; width: 24.25%;  position: absolute;top: 70%; left: 49%; }
+.men3 h3{position: absolute; top: 30%; left: 2%;}
+.men3 p{position: absolute; top: 35%; left: 2%;}
+.men4{height: 30vh; width: 24.25%;  position: absolute; top: 70%; left: 75%;}
+.men4 h3{position: absolute; top: 30%; left:2%;}
+.men4 p{position: absolute; top: 35%; left: 2%;}
+.info1{height: 10vh; width: 24.25%;  background-color: antiquewhite; position: absolute; top:180% ;left: 0%;}
+
+
+.info2{height: 10vh; width: 24.25%; background-color: antiquewhite; position:  absolute; top:180% ;left: 25%;}
+.info3{height: 10vh; width: 24.25%;background-color: antiquewhite; position: absolute;top:180% ; left: 50%;}
+.info4{height: 10vh; width: 24.25%; background-color: antiquewhite; position: absolute; top:180% ; left: 75%;}
+.contact{height: 70vh; width: 100%; background-color: antiquewhite; position: absolute; top: 400%;}
+.contact h1{height: 11vh; width: 100%; text-align: center; position: absolute;top: -15%;left: 0%; background-color: antiquewhite;}
+input{padding: 15px; margin-top: 10px; margin-left: 60px;}
+#button{position: absolute; top:60% ; left:35%; background-color: black;color: aliceblue;}
+aside{height: 100vh;width: 100%; position: absolute;top: 480%;}
+aside  img{height: 100vh;width: 100%;  }
+
+footer{height: 30vh; width: 100%;background-color: darkslategrey; position: absolute; top: 583%; }
+footer a { text-decoration: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 3rem;}
+
+ 
+ 
+
+
